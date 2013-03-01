@@ -1,0 +1,1 @@
+(function(){window.notice=function(i,n,t){var o;return null==t&&(t=3e3),o=window.webkitNotifications.createNotification("../image/icon48.png",i,n),o.show(),setTimeout(function(){return o.cancel()},t)}}).call(this);
