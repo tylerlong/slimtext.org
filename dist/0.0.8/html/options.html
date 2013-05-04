@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <title>Slim Text options</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="../image/icon16.png">
+    <link rel="stylesheet" href="../font/fonts.css" type="text/css">
+    <link rel="stylesheet" href="../css/options.css" type="text/css">
+</head>
+<body>
+<table id="container">
+<tr>
+    <td><span id="theme_label"></span>:</td>
+    <td>
+        <select id="theme">
+            <optgroup label="Bright">
+                <option value="chrome">Chrome</option>
+                <option value="clouds">Clouds</option>
+                <option value="crimson_editor">Crimson Editor</option>
+                <option value="dawn">Dawn</option>
+                <option value="dreamweaver">Dreamweaver</option>
+                <option value="eclipse">Eclipse</option>
+                <option value="github">GitHub</option>
+                <option value="solarized_light">Solarized Light</option>
+                <option value="textmate" selected="selected">TextMate</option>
+                <option value="tomorrow">Tomorrow</option>
+                <option value="xcode">XCode</option>
+            </optgroup>
+            <optgroup label="Dark">
+                <option value="ambiance">Ambiance</option>
+                <option value="chaos">Chaos</option>
+                <option value="clouds_midnight">Clouds Midnight</option>
+                <option value="cobalt">Cobalt</option>
+                <option value="idle_fingers">idleFingers</option>
+                <option value="kr_theme">krTheme</option>
+                <option value="merbivore">Merbivore</option>
+                <option value="merbivore_soft">Merbivore Soft</option>
+                <option value="mono_industrial">Mono Industrial</option>
+                <option value="monokai">Monokai</option>
+                <option value="pastel_on_dark">Pastel on dark</option>
+                <option value="solarized_dark">Solarized Dark</option>
+                <option value="twilight">Twilight</option>
+                <option value="tomorrow_night">Tomorrow Night</option>
+                <option value="tomorrow_night_blue">Tomorrow Night Blue</option>
+                <option value="tomorrow_night_bright">Tomorrow Night Bright</option>
+                <option value="tomorrow_night_eighties">Tomorrow Night 80s</option>
+                <option value="vibrant_ink">Vibrant Ink</option>
+            </optgroup>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><span id="font_size_label"></span>:</td>
+    <td>
+        <select id="font_size"></select>
+    </td>
+</tr>
+<tr>
+    <td><span id="key_binding_label"></span>:</td>
+    <td>
+        <select id="key_binding">
+            <option value="ace">Default</option>
+            <option value="vim">Vim</option>
+            <option value="emacs">Emacs</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><span id="tab_size_label"></span>:</td>
+    <td>
+        <input id="tab_size" type="range" min="2" max="8" step="2"/>
+        <span id="tab_size_value"></span>
+    </td>
+</tr>
+<tr>
+    <td colspan="2"><button id="save_btn"></button></td>
+</tr>
+</table>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/underscore.js"></script>
+    <script src="../js/util.js"></script>
+    <script src="../js/option.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+(function(){chrome.browserAction.onClicked.addListener(function(){return chrome.tabs.create({url:chrome.extension.getURL("html/main.html")})})}).call(this);
