@@ -1,4 +1,0 @@
-/* Localized versions of Info.plist keys */
-
-CFBundleName = "File Manager_x86_64.plugin";
-NSHumanReadableCopyright = "Copyright 2013 Tyler Long";
